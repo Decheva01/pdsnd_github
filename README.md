@@ -7,7 +7,7 @@
 R project Question 1
 
 ### Description
-Describe what your project is about and what it does
+Calculate the most popular times of travel of bikeshare customers (month, day of the week, hour)
 
 ### Files used
 Include the files used
