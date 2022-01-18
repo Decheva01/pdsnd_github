@@ -10,7 +10,7 @@ R project Question 1
 Calculate the most popular times of travel of bikeshare customers (month, day of the week, hour)
 
 ### Files used
-Include the files used
+script_Q1.R
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
