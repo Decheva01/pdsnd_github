@@ -121,3 +121,14 @@ list_Q1_plot_output$`New York hour`
 
 list_output_stats_Q1$`Washington hour`
 list_Q1_plot_output$`Washington hour`
+
+
+############
+library(patchwork)
+
+month_plot <- list_Q1_plot_output$`Chicago month` + 
+  list_Q1_plot_output$`New York month` +
+  list_Q1_plot_output$`Washington month`
+
+month_plot
+
