@@ -135,3 +135,7 @@ month_plot <- list_Q1_plot_output$`Chicago month` +
 DOW_plot <- list_Q1_plot_output$`Chicago DOW` +
   list_Q1_plot_output$`New York DOW` +
   list_Q1_plot_output$`Washington DOW`
+
+hour_plot <- list_Q1_plot_output$`Chicago hour` +
+  list_Q1_plot_output$`New York hour` +
+  list_Q1_plot_output$`Washington hour`
