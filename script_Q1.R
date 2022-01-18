@@ -126,9 +126,12 @@ list_Q1_plot_output$`Washington hour`
 ############
 library(patchwork)
 
+# Add tripple plots with patchwork:
+
 month_plot <- list_Q1_plot_output$`Chicago month` + 
   list_Q1_plot_output$`New York month` +
   list_Q1_plot_output$`Washington month`
 
-month_plot
-
+DOW_plot <- list_Q1_plot_output$`Chicago DOW` +
+  list_Q1_plot_output$`New York DOW` +
+  list_Q1_plot_output$`Washington DOW`
